@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bx-book-heart"></i>
+                <span>My Portfolio</span>
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <div class="user">
+            <img src="./pics/pic.jpg" alt="Picture of Me" style="width: 50px; border-radius: 50%; border: 2px solid white;">
+            <div>
+                <p style="font-weight:bold;">Khadija</p>
+                <p>Owner</p>
+            </div>
+        </div>
+
+        <ul>
+            <li>
+                <a href="./html/home.html" class="active">
+                    <i class="bx bx-book-open"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+
+            <li>
+                <a href="./html/about.html">
+                    <i class="bx bx-user-circle"></i>
+                    <span class="nav-item">About</span>
+                </a>
+                <span class="tooltip">About</span>
+            </li>
+
+            <li>
+                <a href="./html/project1.html">
+                    <i class="bx bx-wrench"></i>
+                    <span class="nav-item">Project 1 & 2</span>
+                </a>
+                <span class="tooltip">Project 1 & 2</span>
+            </li>
+
+            <li>
+                <a href="./html/project2.html" >
+                    <i class="bx bx-bulb"></i>
+                    <span class="nav-item">Project 3 & 4</span>
+                </a>
+                <span class="tooltip">Project 3 & 4</span>
+            </li>
+
+            <li>
+                <a href="./html/skills.html">
+                    <i class="bx bx-brain"></i>
+                    <span class="nav-item">Skills</span>
+                </a>
+                <span class="tooltip">Skills</span>
+            </li>
+        </ul>
+
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/khadija-kamil-889a7a2b8/">
+                <i class="bx bxl-linkedin">
+                </i>
+            </a>
+            <a href="https://github.com/knkamil/">
+                <i class="bx bxl-github" >
+                </i>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="main-content">
+        <header class="page-header">
+            <div class="header-left">
+                <h2 class="page-title">Home</h2>
+                <p class="page-date" id="date"></p>
+            </div>
+
+            <div class="header-right">
+                <span class="mode-label">Diary</span>
+
+                <label class="toggle-switch">
+                    <input type="checkbox" id="modeToggle"> 
+                    <span class="slider"></span>
+                </label>
+
+                <span class="mode-label">Website</span>
+            </div>
+        </header>
+
+
+        <h1>My Portfolio</h1>
+        <div class="book">
+            <div class="firstContainer"></div>
+            <div class="secondContainer">
+            <img src="./pics/pic.jpg" alt="Picture of Me" class="aboutPic">
+            <h4 class="name">Kamil Khadija Ndaiya</h4>
+            <h5 style=" font-size: 15px;
+                    padding-top: 10px;
+                    font-family: Poppins, sans-serif;
+                    font-weight: bold;
+                    color: #2b1f1a;">
+                Computer Engineering Student</h5>
+            <button type="button" onclick="window.location.href='./html/about.html'"> View My Portfolio Here</button>
+        </div>
+    </div>
+    </div>
+
+   
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
